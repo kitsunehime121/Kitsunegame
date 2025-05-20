@@ -8,7 +8,7 @@ const secretsGameConfig = {
 async function startSecretsGame() {
   // Mostra l'avviso per il pubblico adulto
   const userConfirmed = confirm(
-    "Attenzione: Questo gioco è per un pubblico adulto. Alcune domande sono molto dirette e potrebbero risultare provocanti. Vuoi continuare?"
+    "Gioco vietato ai minori di 18 anni!"
   );
   
   if (!userConfirmed) {
